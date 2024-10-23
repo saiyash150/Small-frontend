@@ -1,0 +1,43 @@
+.container{
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.textinput{
+  height:40px;
+  width:300px;
+  font-size: 18px;
+  border: solid black;
+  outline: none;
+}
+.submit-button{
+  background-color: rgb(118, 118, 237);
+  color: white;
+  padding: 7px;
+  border: solid rgb(101, 101, 237);
+  margin-top: 20px;
+}
+.input-container{
+  display:flex;
+  flex-direction: column;
+}
+.document{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label{
+  margin-bottom: 5px;
+}
+.textbox{
+  border: solid black;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
